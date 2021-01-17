@@ -1,0 +1,280 @@
+.bodyNow{
+    font-size: 16px;
+}
+.header1{
+    padding: 15px 25px;
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+}
+.header-left{
+    text-align: left;
+    padding: 0;
+}
+.search{
+    position: relative;
+}
+.header-left>img{
+    margin-right: 20px;
+}
+.search>i{
+    position: absolute;
+    left: 7px;
+    top: -2px;
+}
+.search>input{
+    padding: 10px 10px 10px 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.search>input:hover,.search>input:focus{
+    outline: 0;
+    border-color: #5e5ea9a1;
+}
+
+.header-right{
+    text-align: right;
+    padding: 0;
+}
+
+.login{
+    padding: 10px 0;
+}
+.login-nav{
+    position: relative;
+}
+.login-menu{
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    position: absolute;
+    width: 100px;
+    right: 0;
+    border-radius: 5px;
+    display: none;
+    background-color: white;
+}
+ul.login-menu > li{
+    list-style:none;
+    text-align: left;
+}
+ul.login-menu>li>a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header2{
+
+}
+ul.menu-top{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    border-bottom: 1px solid #cccccc;
+}
+.menu-top>li{
+    list-style: none;
+    padding: 5px 0;
+    margin: 0 15px;
+    border-bottom: 2px solid transparent;
+}
+.menu-top>li:hover{
+    border-bottom: 2px solid black;
+}
+.menu-top>li>a{
+    text-decoration: none;
+    color: inherit;
+}
+li.menuParent{
+   position: relative;
+}
+ul.menuChild{
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    border: 1px solid #cccccc;
+    padding: 0;
+    border-radius: 3px;
+    display: none;
+}
+ul.menuChild>li{
+    list-style: none;
+    padding: 0 10px;
+    width: 100px;
+}
+ul.menuChild>li>a{
+    color: inherit;
+}
+ul.menuChild>li:first-child{
+    margin-top: 10px;
+}
+ul.menuChild>li:last-child{
+    margin-bottom: 10px;
+}
+ul.menuChild>li:hover{
+    background-color: #cccccc;
+}
+ul.menuChild>li>a{
+    text-decoration: none;
+}
+
+
+.banner{
+    padding: 0 25px;
+    margin: 25px 0;
+}
+.banner>#carouselExampleControls{
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 25px;
+}
+.item-banner{
+    width: 100%;
+    min-height: 300px;
+    background-color: #cccccc;
+}
+.item-banner>img{
+    width: 100%;
+    height: auto;
+}
+
+.show-category{
+    padding: 0 25px;
+    margin-bottom: 20px;
+}
+.category-main{
+    text-align: center;
+}
+.category-main>h1{
+
+}
+.category-main>.category-info{
+    font-size: 18px;
+}
+.category-product{
+    margin: 0;
+}
+.product{
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+}
+a.product:hover{
+    color: inherit;
+}
+.product>.infor-full{
+    padding: 0 40px;
+}
+.infor-full>span{
+    display: block;
+}
+.product>.image>img{
+    width: 100%;
+    height: auto;
+}
+.infor-full>.name{
+    font-size: 18px;
+    font-weight: bold;
+}
+.infor-full>.info {
+    font-size: 14px;
+}
+.infor-full>.price {
+    font-size: 16px;
+    color: darkred;
+    font-weight: bold;
+}
+.infor-full>.buy{
+    position: relative;
+}
+.infor-full>.start{
+    margin-top: 20px;
+}
+.add-to-cards{
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: -32px;
+    background-color: #313131;
+    color: white;
+    display: none;
+}
+.product:hover .add-to-cards{
+    display: block;
+}
+.divline{
+    border-bottom: 2px solid #cccccc;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.divlineOne{
+    border-bottom: 1px solid #cccccc;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.footer{
+    margin-top: 85px;
+    border-top: 3px solid #8c8888;
+    padding: 60px 60px;
+}
+.footer .contact{
+    font-size: 14px;
+}
+.footer .fmenu{
+    font-size: 28px;
+}
+.footer .phone{}
+.footer .address{}
+.footer .email{}
+.footer .design{
+    margin-top: 20px;
+    font-size: 14px;
+    font-style: italic;
+}
+.fcategory>ul{
+    padding: 0;
+}
+.fcategory>ul>li{
+    list-style: none;
+    display: inline-block;
+    width: 100px;
+    padding: 5px 0;
+    font-weight: 400;
+    font-size: 15px;
+}
+.fcategory>ul>li>a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.active{
+    color: darkred;
+    font-weight: 500;
+}
+
+/* page category*/
+.cate-result{
+    padding: 10px 25px;
+}
+
+/*product detail*/
+.pro-info{
+    padding: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.pro-image{
+    padding: 0;
+}
+.pro-description{
+    padding: 0 25px;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+.pro-title1{
+    font-size: 28px;
+    margin: 20px 0;
+}
